@@ -1,4 +1,8 @@
-- id: spotless
-  name: spotless
+- id: spotlessCheck
+  name: spotlessCheck
   language: script
-  entry: run_spotless.sh
+  entry: run_spotless.sh spotlessCheck
+- id: spotlessApply
+  name: spotlessApply
+  language: script
+  entry: run_spotless.sh spotlessApply
