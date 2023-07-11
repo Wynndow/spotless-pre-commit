@@ -1,0 +1,4 @@
+- id: spotless
+  name: spotless
+  language: script
+  entry: run_spotless.sh
